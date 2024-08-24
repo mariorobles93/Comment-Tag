@@ -1,4 +1,12 @@
-# CommentTag
+# Comment Tag
+
+Demo highlighting user tagging in a task's comments field. Features include:
+
+Display of existing comments.
+Input field for adding new comments.
+Typing "@" triggers a dropdown of users to tag, with alphabetical filtering.
+Tagged users receive notifications.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
 
