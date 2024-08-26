@@ -1,0 +1,29 @@
+.comments{
+  .comment {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .comment-field{
+    width: 100%;
+  }
+
+  .new-comment-container{
+    position: relative;
+    .suggestion{
+      cursor: pointer;
+    }
+  }
+
+  #suggestion-panel{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    z-index: 1000; /* ensures it appears above other content */
+    max-height: 300px;
+    overflow-y: auto;
+  }
+}

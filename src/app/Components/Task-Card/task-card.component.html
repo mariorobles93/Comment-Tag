@@ -1,0 +1,22 @@
+<mat-card appearance="outlined">
+  <mat-card-header>Create Comments Service for Task Card</mat-card-header>
+  <mat-card-content>Objective: Develop a Comments Service that integrates with the Task Card feature to manage user comments. This service will allow users to add, retrieve, update, and delete comments associated with specific task cards.
+    <br>
+    Requirements:
+
+    A list of comments
+    A field that can allow people to add new comments
+    The field should be able to detect when you type in someone's name starting with an &#64;, similar to the example in Slack. Here is a static set of users
+    [
+    &#123;'userID' : 1, 'name' : 'Kevin'&#125;,
+    &#123;'userID' : 2, 'name' : 'Jeff'&#125;,
+    &#123;'userID' : 3, 'name' : 'Bryan'&#125;,
+    &#123;'userID' : 4, 'name' : 'Gabbey'&#125;,
+    ]
+    When the entry is entered, it needs to detect which user was typed in and trigger a JavaScript function that alerts the person who is tagged.
+    </mat-card-content>
+  <mat-divider></mat-divider>
+  <mat-card-footer>
+    <app-comment></app-comment>
+  </mat-card-footer>
+</mat-card>
